@@ -80,7 +80,8 @@ PRODUCT_PACKAGES += \
 
 # Userdata checkpoint
 PRODUCT_PACKAGES += \
-    checkpoint_gc
+    checkpoint_gc \
+    otapreopt_script
 
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
